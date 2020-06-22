@@ -1,0 +1,13 @@
+version: '1.0'
+
+services:
+    student:
+        source: student
+        external: yes
+    income:
+        source: income
+        external: yes
+    ui-app:
+        source: ui-app
+        external: yes
+        root_url: yes
