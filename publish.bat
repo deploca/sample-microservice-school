@@ -2,7 +2,7 @@
 rmdir /s /q _publish
 mkdir _publish
 
-:: Copy Deploca folder contents
+:: Copy deploy folder contents
 xcopy .deploy _publish /E
 
 :: Publish Students Api

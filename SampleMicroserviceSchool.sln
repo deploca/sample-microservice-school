@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMicroserviceSchool", "SampleMicroserviceSchool\SampleMicroserviceSchool.csproj", "{37D33813-1403-46A8-8E07-353AD9B63714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleMicroserviceSchool", "SampleMicroserviceSchool\SampleMicroserviceSchool.csproj", "{37D33813-1403-46A8-8E07-353AD9B63714}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMicroserviceSchool.Students.Api", "SampleMicroserviceSchool.Students.Api\SampleMicroserviceSchool.Students.Api.csproj", "{6041D91D-9B77-4279-B9F5-49C72EDFEC7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleMicroserviceSchool.Students.Api", "SampleMicroserviceSchool.Students.Api\SampleMicroserviceSchool.Students.Api.csproj", "{6041D91D-9B77-4279-B9F5-49C72EDFEC7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMicroserviceSchool.Income.Api", "SampleMicroserviceSchool.Income.Api\SampleMicroserviceSchool.Income.Api.csproj", "{BA3EA4E0-1D35-40CB-98B9-FACFADCD83AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleMicroserviceSchool.Income.Api", "SampleMicroserviceSchool.Income.Api\SampleMicroserviceSchool.Income.Api.csproj", "{BA3EA4E0-1D35-40CB-98B9-FACFADCD83AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMicroserviceSchool.Data", "SampleMicroserviceSchool.Data\SampleMicroserviceSchool.Data.csproj", "{37A07C7D-2E3F-4A8E-8FC5-3FEB8EB9EE80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleMicroserviceSchool.Data", "SampleMicroserviceSchool.Data\SampleMicroserviceSchool.Data.csproj", "{37A07C7D-2E3F-4A8E-8FC5-3FEB8EB9EE80}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SampleMicroserviceSchool.UI", "SampleMicroserviceSchool.UI\", "{6FE812F1-E214-47D1-9DC2-6BD9569ABBC1}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -36,6 +36,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		publish.bat = publish.bat
+		publish.sh = publish.sh
 		README.md = README.md
 	EndProjectSection
 EndProject
