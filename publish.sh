@@ -16,6 +16,7 @@ cd ..
 
 # Publish UI
 cd SampleMicroserviceSchool.UI
+npm install
 npm run build
 cd ..
 
