@@ -6,12 +6,12 @@ cp -r ./.deploy/* ./_publish/
 
 # Publish Students Api
 cd SampleMicroserviceSchool.Students.Api
-dotnet publish -c Release -o ./_publish/student --self-contained false
+dotnet publish -c Release -o ../_publish/student --self-contained false
 cd ..
 
 # Publish Income Api
 cd SampleMicroserviceSchool.Income.Api
-dotnet publish -c Release -o ./_publish/income --self-contained false
+dotnet publish -c Release -o ../_publish/income --self-contained false
 cd ..
 
 # Publish UI
