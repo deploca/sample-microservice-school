@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 import axios from 'axios'
 
 // http
-var baseAddress = window.location.origin;
+var baseAddress = window.location.host;
 const schoolService = axios.create({
     baseURL: process.env.NODE_ENV == 'development' ? '//localhost:59851' : `//student.${baseAddress}/`,
 });
