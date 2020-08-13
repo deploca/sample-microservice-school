@@ -1,6 +1,8 @@
 version: '1.0'
 
 services:
+    database:
+        image: postgres:12.2-alpine
     student:
         source: student
         external: yes

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 using SampleMicroserviceSchool.Entities;
 
@@ -54,6 +55,12 @@ namespace SampleMicroserviceSchool.Data
         public void AddPayment(Payment payment)
         {
             // do nothing
+        }
+
+        public Task CommitChanges()
+        {
+            // do nothing
+            return Task.CompletedTask;
         }
     }
 }

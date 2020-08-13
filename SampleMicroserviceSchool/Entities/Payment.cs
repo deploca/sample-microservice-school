@@ -9,5 +9,8 @@ namespace SampleMicroserviceSchool.Entities
         public long StudentId { get; set; }
         public long CourseId { get; set; }
         public decimal PayAmount { get; set; }
+
+        public virtual Student Student { get; set; }
+        public virtual Course Course { get; set; }
     }
 }

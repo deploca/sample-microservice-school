@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SampleMicroserviceSchool.Data\SampleMicroserviceSchool.Data.csproj" />
     <ProjectReference Include="..\SampleMicroserviceSchool\SampleMicroserviceSchool.csproj" />
   </ItemGroup>
 

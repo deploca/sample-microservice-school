@@ -5,10 +5,10 @@ import axios from 'axios'
 // http
 var baseAddress = window.location.host;
 const schoolService = axios.create({
-    baseURL: process.env.NODE_ENV == 'development' ? '//localhost:59851' : `//student.${baseAddress}/`,
+    baseURL: process.env.NODE_ENV == 'development' ? '//localhost:59851' : `//student_${baseAddress}/`,
 });
 const incomeService = axios.create({
-    baseURL: process.env.NODE_ENV == 'development' ? '//localhost:59885' : `//income.${baseAddress}/`,
+    baseURL: process.env.NODE_ENV == 'development' ? '//localhost:59885' : `//income_${baseAddress}/`,
 });;
 
 Vue.use(Vuex)

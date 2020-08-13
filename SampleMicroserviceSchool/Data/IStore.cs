@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 using SampleMicroserviceSchool.Entities;
 
@@ -13,5 +14,7 @@ namespace SampleMicroserviceSchool.Data
         void AddCourse(Course course);
         void AddStudent(Student student);
         void AddPayment(Payment payment);
+
+        Task CommitChanges();
     }
 }
